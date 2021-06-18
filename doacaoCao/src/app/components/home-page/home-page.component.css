@@ -1,0 +1,10 @@
+img{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  background-color: blanchedalmond;
+  font-size: 20px;
+}

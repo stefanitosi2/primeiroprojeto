@@ -1,0 +1,12 @@
+<mat-card>
+  <img [src]="cao?.image">
+​
+  <div class="info">
+    <span>{{cao?.adress}}</span>
+    <span class="price">{{cao?.price | currency:'BRL':'symbol':"4.0-2"}}</span>
+  </div>
+  <div class="info">
+    <span>{{cao?.owner}}</span>
+    <span>{{cao?.type}}</span>
+  </div>
+</mat-card>
